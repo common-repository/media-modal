@@ -1,0 +1,197 @@
+.mm-clearfix {
+	clear: both;
+}
+
+#mm_modal #SmartPlayer_0, #SmartPlayer_0, .fmvps-wrapper, #mm_modal iframe {
+    width: 100% !important;
+}
+#mm_modal #SmartPlayer_0, .fmvps-wrapper, #mm_modal iframe {
+    height: 100% !important;    
+}
+
+.btn {
+	padding: 10px;
+	font-size: 14px;
+	background-color: #fbb450;
+	border: none;
+	border-radius: 3px;
+	color: #fff;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+#mm_modal .nopad {
+    padding: 15px 0px !important; 
+}
+
+.btn:hover {
+	background-color: #FAA227;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.mm-btn {
+    display: block;
+    text-align: center;
+}
+
+/*MODAL STYLES*/
+#mm_modal .close {
+    float: right;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1;
+    color: #000000;
+    text-shadow: 0 1px 0 #ffffff;
+    opacity: 0.2;
+    filter: alpha(opacity=20);
+}
+#mm_modal .close:hover, #mm_modal .close:focus {
+    color: #000000;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+#mm_modal button.close {
+    padding: 0;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    -webkit-appearance: none;
+}
+.modal-open {
+    overflow: hidden;
+}
+#mm_modal, .modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    display: none;
+    overflow: auto;
+    overflow-y: scroll;
+}
+#mm_modal.fade .modal-dialog {
+    -webkit-transform: translate(0, -25%);
+    -ms-transform: translate(0, -25%);
+    transform: translate(0, -25%);
+    -webkit-transition: -webkit-transform 0.3s ease-out;
+    -moz-transition: -moz-transform 0.3s ease-out;
+    -o-transition: -o-transform 0.3s ease-out;
+    transition: transform 0.3s ease-out;
+}
+#mm_modal.in .modal-dialog {
+    -webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);
+}
+.modal-dialog {
+    position: relative;
+    z-index: 1050;
+    width: auto;
+    padding: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#mm_modal .modal-content {
+    position: relative;
+    background-color: #ffffff;
+    border: 1px solid #999999;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    outline: none;
+    -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    background-clip: padding-box;
+}
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030;
+    background-color: #000000;
+}
+.modal-backdrop.fade {
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.modal-backdrop.in {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+#mm_modal .modal-header {
+    min-height: 16.428571429px;
+    padding: 15px;
+    /*border-bottom: 1px solid #e5e5e5;*/
+}
+#mm_modal .modal-header .close {
+    margin-top: -2px;    
+}
+#mm_modal .modal-title {
+    margin: 0;
+    line-height: 1.428571429;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    float: left;
+    position: relative;
+    top: -17px;    
+}
+#mm_modal .modal-body {
+    position: relative;
+    padding: 20px 20px 40px 20px;
+    height: 345px;
+}
+#mm_modal .modal-footer {
+    padding: 19px 20px 20px;
+    margin-top: 15px;
+    text-align: right;
+    border-top: 1px solid #e5e5e5;
+}
+#mm_modal .modal-footer:before, #mm_modal .modal-footer:after {
+    display: table;
+    content: " ";
+}
+#mm_modal .modal-footer:after {
+    clear: both;
+}
+#mm_modal .modal-footer:before, #mm_modal .modal-footer:after {
+    display: table;
+    content: " ";
+}
+#mm_modal .modal-footer:after {
+    clear: both;
+}
+#mm_modal .modal-footer .btn+.btn {
+    margin-bottom: 0;
+    margin-left: 5px;
+}
+#mm_modal .modal-footer .btn-group .btn+.btn {
+    margin-left: -1px;
+}
+#mm_modal .modal-footer .btn-block+.btn-block {
+    margin-left: 0;
+}
+@media screen and (min-width: 768px) {
+    .modal-dialog {
+    width: 600px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#mm_modal .modal-content {
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+.audio-modal .modal-body {
+    height: auto !important;
+}
+/* For Audio Player */
+.plain-audio-player .audio-title {
+    padding: 0px;
+    margin: 0px 0px 5px 0px;
+}
